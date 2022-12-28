@@ -34,6 +34,9 @@
                                 <state key="normal" title="HIDE!">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="toggleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pai-WL-bGt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="YY5-mR-Qar" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="59" id="yyH-CJ-Mya"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="hideLabel" destination="YY5-mR-Qar" id="Uzd-Zy-QTN"/>
+                        <outlet property="toggleButton" destination="gav-SH-iYi" id="IaY-eH-Yj1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
